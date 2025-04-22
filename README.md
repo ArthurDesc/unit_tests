@@ -1,33 +1,45 @@
-# Unit Tests Project
+# test-unitaire-debutant
 
-A project for practicing unit testing techniques.
+Projet d'initiation aux tests unitaires avec Node.js et Jest.
 
-## Setup
+## Objectif
+- Mettre en place un environnement de test avec Jest
+- Écrire une fonction simple (`add`)
+- Écrire un test unitaire pour cette fonction
 
-1. Install dependencies:
+## Installation
 ```bash
 npm install
 ```
 
-2. Run the tests:
+## Lancer les tests
 ```bash
 npm test
 ```
 
-3. Run tests in watch mode (for development):
-```bash
-npm run test:watch
-```
+## Résultat attendu
 
-## Project Structure
+### 1. Exemple de test en échec (fonction volontairement erronée)
+![Test échoué](images/screen-failed.png)
+*Le test échoue car la fonction `add` ne retourne pas la bonne valeur.*
 
-- `src/`: Source code
-  - `*.ts`: TypeScript implementation files
-  - `*.test.ts`: Test files for corresponding implementations
+### 2. Exemple de test réussi (fonction corrigée)
+![Test réussi](images/screen-passed.png)
+*Après correction de la fonction, tous les tests passent.*
 
-## Testing Guidelines
+## Structure du projet
+- `src/math.ts` : la fonction à tester
+- `src/math.test.ts` : le test unitaire
+- `images/screen-failed.png` : capture d'écran d'un test en échec
+- `images/screen-passed.png` : capture d'écran d'un test réussi
 
-- Each function should have its own test suite
-- Tests should cover normal cases, edge cases, and error cases
-- Use descriptive test names that explain what is being tested
+## Commandes utiles
+- `npm install` : installe les dépendances
+- `npm test` : lance les tests unitaires
+
+## Bonnes pratiques
+- Commits réguliers et explicites
+- Documentation claire dans le README
+- Captures d'écran pour illustrer le process
+
  
