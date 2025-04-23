@@ -45,28 +45,8 @@ npm test
 
 - **Pour chaque capture**, ajoute une explication en dessous, comme ci-dessus.
 
-- **Pour insérer une image dans le README** :
   ```markdown
   ![Description](images/nom-de-ton-image.png "Titre optionnel")
   ```
   [Source : StackOverflow - How to add screenshot to READMEs in github repository?](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository)
 
----
-
-## Checklist pour le rendu
-
-- [x] Structure de projet propre
-- [x] Tests unitaires PHP et JS qui passent
-- [x] README avec captures d’écran et explications
-- [x] Commits réguliers et clairs
-- [x] Dépôt nommé `test-unitaire-debutant`
-
----
-
-**N’hésite pas à ajouter d’autres captures** si tu veux montrer :
-- L’installation des dépendances
-- La structure des dossiers
-- Un test en erreur (et sa correction)
-- L’interface web (même si ce n’est pas obligatoire)
-
-Si tu veux un exemple de section pour une autre capture, demande-moi !
